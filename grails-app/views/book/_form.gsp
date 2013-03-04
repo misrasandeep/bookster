@@ -9,7 +9,6 @@
 	</label>
 	<g:textField name="isbn" value="${bookInstance?.isbn}"/>
 </div>
-
 <div class="fieldcontain ${hasErrors(bean: bookInstance, field: 'publishDate', 'error')} required">
 	<label for="publishDate">
 		<g:message code="book.publishDate.label" default="Publish Date" />
